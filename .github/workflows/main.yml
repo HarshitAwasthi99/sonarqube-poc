@@ -20,4 +20,4 @@ jobs:
         distribution: 'temurin'
         overwrite-settings: 'false'
     - name: Build with Maven
-      run: mvn install
+      run: mvn clean install sonar:sonar -Dsonar.login=7ad692777c7fdf2cd9c55d5f890888026aa60683 -Dsonar.host.url=http://20.127.36.69:9000
