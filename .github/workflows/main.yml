@@ -30,7 +30,8 @@ jobs:
           password: hzlwheioleqbwycd
           subject: Message from github actions.
           to: rkawasthyujvnl@gmail.com
+          cc: gauravawasthi1797@gmail.com
           from: harshit
           secure: false
           ignore_cert: true
-          body: workflow for ${{github.repository}} completed successfully!
+          body: workflow for ${{github.repository}} completed successfully!YUP
