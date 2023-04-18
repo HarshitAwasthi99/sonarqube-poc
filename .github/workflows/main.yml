@@ -21,3 +21,15 @@ jobs:
         overwrite-settings: 'false'
     - name: Build with Maven
       run: mvn clean install
+    - name: Send email
+      uses: dawidd6/action-send-mail@v3.6.0
+      with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: Harshit Awasthi
+          password: kanpur123#
+          subject: Message from github actions.
+          to: rkawasthyujvnl@gmail.com
+          from: harshit
+          secure: true
+          body: workflow for ${{github.repository}} completed successfully!
