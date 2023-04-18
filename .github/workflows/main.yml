@@ -31,5 +31,5 @@ jobs:
           subject: Message from github actions.
           to: rkawasthyujvnl@gmail.com
           from: harshit
-          secure: true
+          secure: false
           body: workflow for ${{github.repository}} completed successfully!
