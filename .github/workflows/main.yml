@@ -27,7 +27,7 @@ jobs:
           server_address: smtp.gmail.com
           server_port: 465
           username: harshitawasthi2607@gmail.com
-          password: Kanpur123#
+          password: hzlwheioleqbwycd
           subject: Message from github actions.
           to: rkawasthyujvnl@gmail.com
           from: harshit
