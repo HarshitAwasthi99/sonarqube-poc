@@ -32,4 +32,5 @@ jobs:
           to: rkawasthyujvnl@gmail.com
           from: harshit
           secure: false
+          ignore_cert: true
           body: workflow for ${{github.repository}} completed successfully!
