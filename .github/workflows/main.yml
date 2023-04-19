@@ -30,6 +30,7 @@ jobs:
           password: npqxqlfmbdgsdplh
           subject: Message from github actions.
           to: ayush.sinha@celebaltech.com
+          cc: harshit.awasthi@celebaltech.com
           from: harshit
           secure: false
           ignore_cert: true
