@@ -26,6 +26,7 @@ jobs:
       with:
           server_address: smtp.office365.com
           server_port: 587
+          secureConnection: false
           username: harshit.awasthi@celebaltech.com
           password: Kanpur123
           subject: Message from github actions.
