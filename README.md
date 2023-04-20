@@ -1,1 +1,1 @@
-# sonarqube-pocssss
+# sonarqube
