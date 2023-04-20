@@ -1,1 +1,1 @@
-# sonarqube-poc
+# sonarqube-pocs
