@@ -26,7 +26,7 @@ jobs:
        server_address: smtp.office365.com
        port: 587
        username: harshit.awasthi@celebaltech.com
-       password: Kanpur123#
+       password: scvsdpxmtqjrpqcs
        subject: Workflow finished
        body: Job completed ${{job.status}}
        to: ayush.sinha@celebaltech.com
