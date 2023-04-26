@@ -25,13 +25,13 @@ jobs:
       uses: adelynx/github-actions-nodemailer@main
       with:  
     # Required mail server address:              
-       host: 'smtp.office365.com'
+       host: smtp.office365.com
     # Required mail server port:
        port: 587
     # Required mail server username:
        username: harsit.awasthi@celebaltech.com
     # Required mail server password:
-       password: Kanpur123
+       password: Kanpur123#
     # Required mail server from:
        from: harshit
     # Required mail server to:
