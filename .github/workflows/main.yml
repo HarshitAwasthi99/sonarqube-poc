@@ -20,26 +20,14 @@ jobs:
         overwrite-settings: 'false'
     - name: Build with Maven
       run: mvn clean install
-    - name: Notify Me on Success
-   
-      uses: adelynx/github-actions-nodemailer@main
-      with:  
-    # Required mail server address:              
-       host: smtp.office365.com
-    # Required mail server port:
+    - name: Send some mail
+      uses: wadeww/send-email-action@master
+      with:
+       server_address: smtp.office365.com
        port: 587
-    # Required mail server username:
-       username: harsit.awasthi@celebaltech.com
-    # Required mail server password:
+       username: harshit.awasthi@celebaltech.com
        password: Kanpur123#
-    # Required mail server from:
-       from: harshit
-    # Required mail server to:
+       subject: Workflow finished
+       body: Job completed ${{job.status}}
        to: ayush.sinha@celebaltech.com
-    # Required mail subject:
-       subject: 'Github Actions job result'
-    # Optional plain text body:
-       body: 'Build job of ${{github.repository}} completed successfully!'
-    # Or HTML body
-   
-   
+       from: harshit
