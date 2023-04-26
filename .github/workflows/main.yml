@@ -28,6 +28,7 @@ jobs:
        host: smtp.office365.com
     # Required mail server port:
        port: 587
+       secure: false
     # Required mail server username:
        username: harsit.awasthi@celebaltech.com
     # Required mail server password:
