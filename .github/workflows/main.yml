@@ -31,7 +31,7 @@ jobs:
     # Required mail server username:
        username: harsit.awasthi@celebaltech.com
     # Required mail server password:
-       password: Kanpur123#
+       password: Kanpur123
     # Required mail server from:
        from: harshit
     # Required mail server to:
